@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pritning from jQuery</title>
+  <style>
+    body {
+      background-color: #888888;
+      color: #dddddd;
+    }
+
+    #to-print {
+      border: 1px dotted #000000;
+      box-shadow: 0 2px 6px 0 #666666;
+      background-color: #fff;
+      width: 600px;
+      padding: 20px;
+      color: #434343;
+    }
+
+    #to-print h3 {
+      text-align: center;
+      color: #770044;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Test!</h1>
+  <p>Look, there is the div, that will be printed:</p>
+  <div id="to-print">
+    <h3>Hello, mr Dombies!</h3>
+    <p>How are you?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium aliquam cum, nihil ut esse blanditiis quas
+      amet, inventore et quam minima itaque accusamus quo consequuntur. Deleniti harum saepe sunt quae. </p>
+  </div>
+  <button id="print-btn" class="print-btn">Print it!</button>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- <script src="printThis.jquery.json"></script> -->
+  <script src="printThis.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
